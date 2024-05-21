@@ -15,9 +15,11 @@
 
 </head>
 
-<body>
+<body class="bg-dark">
 
-    <main class="bg-light">
+    @include('partials.header')
+
+    <main>
         @yield('main-content')
     </main>
 
